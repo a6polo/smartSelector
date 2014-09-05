@@ -1,0 +1,21 @@
+.smartSelect{ }
+	
+.smartSelect .forSelect-panel .forSelectSearchInput{width: 130px; margin: 0; padding: 0;}
+	
+.smartSelect .forSelect-panel{width:150px; height:300px; background: #ccc; float: left;margin-left: 20px; overflow-y: scroll;}
+.smartSelect .forSelect-panel ul{display:block; width: 100%;padding: 0; margin: 10px 0;}
+.smartSelect .forSelect-panel ul li{min-width:80px; ;list-style: none; cursor: pointer; margin: 5px 0; padding: 5px 5px; }
+.smartSelect .forSelect-panel ul p{margin: 0;}
+.smartSelect .forSelect-panel ul li input{display: none; }
+.smartSelect .forSelect-panel ul .selected{ background: green;}
+	
+.smartSelect .action-panel{width:auto; height:300px; background: #ccc; float: left;margin-left: 20px; text-align: center; vertical-align: middle; }
+.smartSelect .buttonGroup{width:auto; height: 110px; margin: auto 5px;}
+.smartSelect .action-panel button{float: left; clear: left;}
+	
+.smartSelect .toSelect-panel{width:150px; height:300px; background: #ccc; float: left;margin-left: 20px; overflow-y: scroll;}
+.smartSelect .toSelect-panel ul{display:block; width: 100%;padding: 0; margin: 10px 0;}
+.smartSelect .toSelect-panel ul li{min-width:80px; ;list-style: none; cursor: pointer; margin: 5px 0; padding: 5px 5px; }
+.smartSelect .toSelect-panel ul p{margin: 0;}
+.smartSelect .toSelect-panel ul li input{display: none; }
+.smartSelect .toSelect-panel ul .selected{ background: green;}
